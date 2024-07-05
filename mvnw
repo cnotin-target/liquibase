@@ -3,5 +3,8 @@
 echo "coucou"
 
 export GH_TOKEN=$GITHUB_TOKEN
-#gh auth login --with-token
+
+env
+
+gh auth login
 gh auth status

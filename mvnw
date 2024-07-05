@@ -2,5 +2,6 @@
 
 echo "coucou"
 
-gh auth login --with-token << "$GITHUB_TOKEN"
+export GH_TOKEN=$GITHUB_TOKEN
+#gh auth login --with-token
 gh auth status
